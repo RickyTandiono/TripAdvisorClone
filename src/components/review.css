@@ -1,0 +1,23 @@
+ion-content{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Untuk review */
+.reviewCard{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.review{
+    --background: url(Gambar/photo.jpg) 0 0/100% 100% no-repeat;
+}
+
+.upload{
+    --background: url(Gambar/photofood.jpg) 0 0/100% 100% no-repeat;
+}
+
+.reviewButton{
+    background-color: black;
+    color:white;
+    border-radius: 150px;
+}

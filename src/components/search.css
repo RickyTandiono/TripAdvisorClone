@@ -1,0 +1,92 @@
+ion-content{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ion-card{
+    background-color: rgb(4, 75, 4);
+    align-items: center;
+    text-align: center;
+}
+
+ion-card h2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.buttonLocation{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 150px;
+}
+
+/* untuk bar pencarian*/
+.searchBarPage .searchbar-input.sc-ion-searchbar-md {
+    border:1px solid grey;
+    border-radius: 25px;
+    background-position: left 8px center;
+    height: auto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background-color: transparent;
+    -webkit-box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* untuk kartu gambar*/
+.picture ion-card{
+    text-align: left;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cardPictureTop{
+    padding-top: 70px;
+}
+
+ion-card h1{
+    padding: 0;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.picture h3{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 27px;
+    padding-left: 12px;
+}
+
+.div1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.h2Bottom{
+    padding-bottom: 10px;
+}
+
+h2{
+    padding-left: 5px;
+}
+
+.city1{
+    --background: url(Gambar/newyork.jpg) 0 0/100% 100% no-repeat;
+}
+
+.city2{
+    --background: url(Gambar/rome.jpg) 0 0/100% 100% no-repeat;
+}
+
+.city3{
+    --background: url(Gambar/singapore.jpeg) 0 0/100% 100% no-repeat;
+}
+
+.city4{
+    --background: url(Gambar/paris.jpg) 0 0/100% 100% no-repeat;
+}

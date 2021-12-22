@@ -1,0 +1,79 @@
+ion-segment{
+    width: fit-content;
+}
+
+.segmentLabel{
+    text-transform: none;
+    font-size: 20px;
+}
+
+.itemLabel{
+    font-size: 18px;
+}
+
+.itemLabelTop{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.planTitle{
+    padding-left: 15px;
+}
+
+.planTabIcon {
+    border:"1px solid black";
+}
+
+h1{
+    font-size: 20px;
+    padding-bottom: 0;
+}
+
+/* Untuk Search trip*/
+.tripSearch{
+    padding-top: 0;
+    padding-left: 15px;
+}
+
+.tripSearch .searchbar-search-icon { 
+    display:none; 
+    width:0; 
+    height:0; 
+}
+
+.tripSearch .searchbar-input {
+    padding-left: 9px !important;
+}
+
+
+.tripButton{
+    text-align: center;
+    padding-left: 10px;
+}
+
+@media (prefers-color-scheme: dark){
+    .segmentLabel{
+        color:white;
+    }
+}
+@media (prefers-color-scheme: light){
+    .segmentLabel{
+        color:black;
+    }
+}
+
+/*Untuk halaman Booking*/
+.bookDiv{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+/*Untuk halaman save*/
+.saveDiv h2, h3{
+    font-size: 20px;
+    text-align: center;
+}
+.saveDiv h2{
+    padding-top: 10px;
+}
